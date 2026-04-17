@@ -1,0 +1,107 @@
+:root{
+    --text-sub-heading:#E9BD8C;
+    --bs-primary:#933C24;
+    --btn-hover-primary:#b64121;
+    --btn-active-primary:#572213;
+}
+
+.main-heading{
+    font-family: "Sansita Swashed";
+}
+.header-section{
+    background-image: url("../images/header.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.h-text{
+    color: var(--text-sub-heading);
+    font-family: "Inter";
+    font-size: 1.5rem;
+}
+.btn-primary{
+    --bs-btn-bg:var(--bs-primary); 
+    --bs-btn-border-color:var(--bs-primary);
+
+    --bs-btn-hover-bg:var(--btn-hover-primary);
+    --bs-btn-hover-border-color:var(--btn-hover-primary);
+
+    --bs-btn-active-bg:var(--btn-active-primary);
+    --bs-btn-active-border-color:var(--btn-active-primary);
+    font-family: "Inter";
+}
+.link-text{
+    color: var(--text-sub-heading);
+    font-family: "Inter";
+    text-decoration: none;
+    font-weight: 600;
+}
+.text-color{
+    color: var(--text-sub-heading);
+}
+.nav-link{
+    font-family: "Inter";
+}
+.top-p-heading{
+    font-family: "Sansita Swashed";
+    font-size: 3.5rem;
+}
+@media(max-width:786px){
+    .top-p-heading{
+    font-size: 2.8rem;
+    }
+}
+@media(max-width:576px){
+    .top-p-heading{
+    font-size: 2.1rem;
+    }
+}
+.product-1{
+    background-image: url("../images/products/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Inter";
+    margin-top: 1rem;
+}
+.product-1 img{
+    height: 200px;
+}
+.banner-section {
+  background-image: url("../images/sale\ bg.png");
+  background-size: cover;        /* 👈 fills the full section */
+  background-position: relative;   /* 👈 centers the image */
+  background-repeat: no-repeat;  /* 👈 stops image repeating */
+  width: 100%;
+  min-height: 442px;                /* 👈 match your image height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+.banner-title {
+  color: #8B2500;
+  font-size: 42px;
+  font-family: "Sansita Swashed";
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.banner-text {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.banner-btn {
+  background: #8B3A2A;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
